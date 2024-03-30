@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-29T21:14:07 EDT" name="Default suite" finished-at="2024-03-29T21:14:10 EDT" duration-ms="3186">
+    <groups>
+    </groups>
+    <test started-at="2024-03-29T21:14:07 EDT" name="Default test" finished-at="2024-03-29T21:14:10 EDT" duration-ms="3186">
+      <class name="digitalpoint.tech.forumAutomation.T1_homepageValidation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:digitalpoint.tech.forumAutomation.T1_homepageValidation@77fbd92c]" started-at="2024-03-29T21:14:07 EDT" name="openBrowser" finished-at="2024-03-29T21:14:09 EDT" duration-ms="1757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="homepage()[pri:0, instance:digitalpoint.tech.forumAutomation.T1_homepageValidation@77fbd92c]" started-at="2024-03-29T21:14:09 EDT" name="homepage" finished-at="2024-03-29T21:14:10 EDT" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:digitalpoint.tech.forumAutomation.T1_homepageValidation@77fbd92c]" started-at="2024-03-29T21:14:10 EDT" name="closeBrowser" finished-at="2024-03-29T21:14:10 EDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- digitalpoint.tech.forumAutomation.T1_homepageValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
