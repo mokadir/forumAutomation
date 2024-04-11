@@ -36,6 +36,11 @@ public class T03_RegistrationPageValidation {
 		driver.findElement(By.name("course")).click();
 		driver.findElement(By.xpath("//*[@id=\"home\"]/div/div[1]/div[5]/select/option[4]")).click();
 		driver.findElement(By.xpath("//*[@id=\"home\"]/div/div[1]/div[6]/input")).click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		driver.findElement(By.xpath("//*[@id=\"home\"]/div/div[2]/input")).click();
 	}
 	
